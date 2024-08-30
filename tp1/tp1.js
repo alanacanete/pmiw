@@ -1,4 +1,4 @@
-//Link video Youtube: 
+//Link video Youtube: https://youtu.be/UyfdCWqU8lY?si=9czWTtXMrj8MLyRQ
 //Nombre y Apellido:Alana Cañete 
 //Legajo: 118985/1
 let ObraReferencia;
@@ -35,7 +35,7 @@ function draw() {
     Inicio(0, 255);//Le doy valor inicial a los parámetros de la función Inicio a=0 y c=255;
     frameCount=0;
   }
-  if (tiempo===true) {//Si la función Tiempo devuelve un valor "true", entonces se disminuye el frameRate a 20 y se llama a la función Inicio, pero ahora con otros valores
+  if (Tiempo===true) {//Si la función Tiempo devuelve un valor "true", entonces se disminuye el frameRate a 20 y se llama a la función Inicio, pero ahora con otros valores
     //de parámetros.
     frameRate(20);
     Inicio(int(random(255)), int(random(255)));//Le cambio el valor a los parámetros de la función Inicio; siendo estos, valores aleatorios flotantes de a y c, entre 0 y 255,
